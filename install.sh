@@ -13,7 +13,7 @@ echo "hdmi_force_hotplug=1" >> /boot/config.txt
 echo "dtparam=i2c_arm=on" >> /boot/config.txt
 echo "dtparam=spi=on" >> /boot/config.txt
 echo "enable_uart=1" >> /boot/config.txt
-echo "dtoverlay=mhs35:rotate=90" >> ./boot/config.txt
+echo "dtoverlay=mhs35:rotate=90" >> /boot/config.txt
 echo "max_framebuffers=2" >> /boot/config.txt
 echo "arm_64bit=1" >> /boot/config.txt
 echo "hdmi_force_hotplug=1" >> /boot/config.txt
